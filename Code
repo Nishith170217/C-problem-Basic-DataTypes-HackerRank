@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+
+int a;
+long long int c;
+char d;
+float e;
+double w;
+
+scanf("%d %lld %c %f %lf",&a,&c,&d,&e,&w);
+
+printf("%d\n%lld\n%c\n%.3f\n%.9lf",a,c,d,e,w);
+
+return 0;
+
+}
